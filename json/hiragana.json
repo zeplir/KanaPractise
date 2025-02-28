@@ -1,370 +1,286 @@
 [
     {
-      "katakana": "あ",
-      "romanji": "a",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "あ",
+      "romanji": "a"
     },
     {
-      "katakana": "い",
-      "romanji": "i",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "い",
+      "romanji": "i"
     },
     {
-      "katakana": "う",
-      "romanji": "u",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "う",
+      "romanji": "u"
     },
     {
-      "katakana": "え",
-      "romanji": "e",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "え",
+      "romanji": "e"
     },
     {
-      "katakana": "お",
-      "romanji": "o",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "お",
+      "romanji": "o"
     },
     {
-      "katakana": "ん",
-      "romanji": "n",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ん",
+      "romanji": "n"
     },
     {
-      "katakana": "か",
-      "romanji": "ka",
-      "dakuten-katakana": "が",
-      "dakuten-romanji": "ga",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "か",
+      "romanji": "ka"
     },
     {
-      "katakana": "き",
-      "romanji": "ki",
-      "dakuten-katakana": "ぎ",
-      "dakuten-romanji": "gi",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "が",
+      "romanji": "ga"
     },
     {
-      "katakana": "く",
-      "romanji": "ku",
-      "dakuten-katakana": "ぐ",
-      "dakuten-romanji": "gu",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "き",
+      "romanji": "ki"
     },
     {
-      "katakana": "け",
-      "romanji": "ke",
-      "dakuten-katakana": "げ",
-      "dakuten-romanji": "ge",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ぎ",
+      "romanji": "gi"
     },
     {
-      "katakana": "こ",
-      "romanji": "ko",
-      "dakuten-katakana": "ご",
-      "dakuten-romanji": "go",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "く",
+      "romanji": "ku"
     },
     {
-      "katakana": "さ",
-      "romanji": "sa",
-      "dakuten-katakana": "ざ",
-      "dakuten-romanji": "za",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ぐ",
+      "romanji": "gu"
     },
     {
-      "katakana": "し",
-      "romanji": "shi",
-      "dakuten-katakana": "じ",
-      "dakuten-romanji": "ji",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "け",
+      "romanji": "ke"
     },
     {
-      "katakana": "す",
-      "romanji": "su",
-      "dakuten-katakana": "ず",
-      "dakuten-romanji": "zu",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "げ",
+      "romanji": "ge"
     },
     {
-      "katakana": "せ",
-      "romanji": "se",
-      "dakuten-katakana": "ぜ",
-      "dakuten-romanji": "ze",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "こ",
+      "romanji": "ko"
     },
     {
-      "katakana": "そ",
-      "romanji": "so",
-      "dakuten-katakana": "ぞ",
-      "dakuten-romanji": "zo",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ご",
+      "romanji": "go"
     },
     {
-      "katakana": "た",
-      "romanji": "ta",
-      "dakuten-katakana": "だ",
-      "dakuten-romanji": "da",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "さ",
+      "romanji": "sa"
     },
     {
-      "katakana": "ち",
-      "romanji": "chi",
-      "dakuten-katakana": "ぢ",
-      "dakuten-romanji": "ji",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ざ",
+      "romanji": "za"
     },
     {
-      "katakana": "つ",
-      "romanji": "tsu",
-      "dakuten-katakana": "づ",
-      "dakuten-romanji": "dzu",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "し",
+      "romanji": "shi"
     },
     {
-      "katakana": "て",
-      "romanji": "te",
-      "dakuten-katakana": "で",
-      "dakuten-romanji": "de",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "じ",
+      "romanji": "ji"
     },
     {
-      "katakana": "と",
-      "romanji": "to",
-      "dakuten-katakana": "ど",
-      "dakuten-romanji": "do",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "す",
+      "romanji": "su"
     },
     {
-      "katakana": "な",
-      "romanji": "na",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ず",
+      "romanji": "zu"
     },
     {
-      "katakana": "に",
-      "romanji": "ni",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "せ",
+      "romanji": "se"
     },
     {
-      "katakana": "ぬ",
-      "romanji": "nu",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ぜ",
+      "romanji": "ze"
     },
     {
-      "katakana": "ね",
-      "romanji": "ne",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "そ",
+      "romanji": "so"
     },
     {
-      "katakana": "の",
-      "romanji": "no",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ぞ",
+      "romanji": "zo"
     },
     {
-      "katakana": "は",
-      "romanji": "ha",
-      "dakuten-katakana": "ば",
-      "dakuten-romanji": "ba",
-      "handakuten-katakana": "ぱ",
-      "handakuten-romanji": "pa"
+      "hiragana": "た",
+      "romanji": "ta"
     },
     {
-      "katakana": "ひ",
-      "romanji": "hi",
-      "dakuten-katakana": "び",
-      "dakuten-romanji": "bi",
-      "handakuten-katakana": "ぴ",
-      "handakuten-romanji": "pi"
+      "hiragana": "だ",
+      "romanji": "da"
     },
     {
-      "katakana": "ふ",
-      "romanji": "fu",
-      "dakuten-katakana": "ぶ",
-      "dakuten-romanji": "bu",
-      "handakuten-katakana": "ぷ",
-      "handakuten-romanji": "pu"
+      "hiragana": "ち",
+      "romanji": "chi"
     },
     {
-      "katakana": "へ",
-      "romanji": "he",
-      "dakuten-katakana": "べ",
-      "dakuten-romanji": "be",
-      "handakuten-katakana": "ぺ",
-      "handakuten-romanji": "pe"
+      "hiragana": "ぢ",
+      "romanji": "ji"
     },
     {
-      "katakana": "ほ",
-      "romanji": "ho",
-      "dakuten-katakana": "ぼ",
-      "dakuten-romanji": "bo",
-      "handakuten-katakana": "ぽ",
-      "handakuten-romanji": "po"
+      "hiragana": "つ",
+      "romanji": "tsu"
     },
     {
-      "katakana": "ま",
-      "romanji": "ma",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "づ",
+      "romanji": "dzu"
     },
     {
-      "katakana": "み",
-      "romanji": "mi",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "て",
+      "romanji": "te"
     },
     {
-      "katakana": "む",
-      "romanji": "mu",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "で",
+      "romanji": "de"
     },
     {
-      "katakana": "め",
-      "romanji": "me",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "と",
+      "romanji": "to"
     },
     {
-      "katakana": "も",
-      "romanji": "mo",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ど",
+      "romanji": "do"
     },
     {
-      "katakana": "や",
-      "romanji": "ya",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "な",
+      "romanji": "na"
     },
     {
-      "katakana": "ゆ",
-      "romanji": "yu",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "に",
+      "romanji": "ni"
     },
     {
-      "katakana": "よ",
-      "romanji": "yo",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ぬ",
+      "romanji": "nu"
     },
     {
-      "katakana": "ら",
-      "romanji": "ra",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ね",
+      "romanji": "ne"
     },
     {
-      "katakana": "り",
-      "romanji": "ri",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "の",
+      "romanji": "no"
     },
     {
-      "katakana": "る",
-      "romanji": "ru",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "は",
+      "romanji": "ha"
     },
     {
-      "katakana": "れ",
-      "romanji": "re",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ば",
+      "romanji": "ba"
     },
     {
-      "katakana": "ろ",
-      "romanji": "ro",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ぱ",
+      "romanji": "pa"
     },
     {
-      "katakana": "わ",
-      "romanji": "wa",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "ひ",
+      "romanji": "hi"
     },
     {
-      "katakana": "を",
-      "romanji": "wo",
-      "dakuten-katakana": "",
-      "dakuten-romanji": "",
-      "handakuten-katakana": "",
-      "handakuten-romanji": ""
+      "hiragana": "び",
+      "romanji": "bi"
+    },
+    {
+      "hiragana": "ぴ",
+      "romanji": "pi"
+    },
+    {
+      "hiragana": "ふ",
+      "romanji": "fu"
+    },
+    {
+      "hiragana": "ぶ",
+      "romanji": "bu"
+    },
+    {
+      "hiragana": "ぷ",
+      "romanji": "pu"
+    },
+    {
+      "hiragana": "へ",
+      "romanji": "he"
+    },
+    {
+      "hiragana": "べ",
+      "romanji": "be"
+    },
+    {
+      "hiragana": "ぺ",
+      "romanji": "pe"
+    },
+    {
+      "hiragana": "ほ",
+      "romanji": "ho"
+    },
+    {
+      "hiragana": "ぼ",
+      "romanji": "bo"
+    },
+    {
+      "hiragana": "ぽ",
+      "romanji": "po"
+    },
+    {
+      "hiragana": "ま",
+      "romanji": "ma"
+    },
+    {
+      "hiragana": "み",
+      "romanji": "mi"
+    },
+    {
+      "hiragana": "む",
+      "romanji": "mu"
+    },
+    {
+      "hiragana": "め",
+      "romanji": "me"
+    },
+    {
+      "hiragana": "も",
+      "romanji": "mo"
+    },
+    {
+      "hiragana": "や",
+      "romanji": "ya"
+    },
+    {
+      "hiragana": "ゆ",
+      "romanji": "yu"
+    },
+    {
+      "hiragana": "よ",
+      "romanji": "yo"
+    },
+    {
+      "hiragana": "ら",
+      "romanji": "ra"
+    },
+    {
+      "hiragana": "り",
+      "romanji": "ri"
+    },
+    {
+      "hiragana": "る",
+      "romanji": "ru"
+    },
+    {
+      "hiragana": "れ",
+      "romanji": "re"
+    },
+    {
+      "hiragana": "ろ",
+      "romanji": "ro"
+    },
+    {
+      "hiragana": "わ",
+      "romanji": "wa"
+    },
+    {
+      "hiragana": "を",
+      "romanji": "wo"
     }
 ]
