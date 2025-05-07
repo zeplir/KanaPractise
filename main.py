@@ -1,21 +1,18 @@
 # Author Leo Katakalidis Rydh, 2025. @Zeplir on Github
 
-# imports
 import json
 import random
 
 # <------------ TODO ------------>
-# Add 'practise all' option
+# Add 'practise only dakuten' option etc
 # Press q to quit anytime
 # Handle incorrect input on gamemode 
-# Handel incorrect input on answer check.
+# Handle incorrect input on answer check.
 # Implement train a specific column
 # <------------------------------>
 
 # Global consts
 class Global:
-    #KATAKANA_CSV: str = './csv/katakana.csv'
-    #HIRAGANA_CSV: str = './csv/hiragana.csv'
     KATAKANA_JSON: str = './json/katakana.json'
     HIRAGANA_JSON: str = './json/hiragana.json'
 
@@ -56,7 +53,7 @@ def char_limit() -> int:
         return 1
 
 def game_loop(game_mode: str, max_len: int, data:list[dict[str, str]]):
-    order = list(range(len(data)))
+    order: list[str] = list(range(len(data)))
     random.shuffle(order)
     correct_counter: int = 0
 
@@ -65,14 +62,15 @@ def game_loop(game_mode: str, max_len: int, data:list[dict[str, str]]):
 
     for index, num in enumerate(order):
         if index == max_len:
-            print(f"\nYou got {correct_counter} out of {index}, well done!")
+            percentage: float = (correct_counter / max_len) * 100
+            print(f"\nYou got {correct_counter}/{index}, ({round(percentage, 1)}%) well done!")
             print("Thank you for playing!")
             exit()
         user_answer = input(f"{data[num][game_mode]}: ")
         if user_answer.lower() == data[num]['romanji']:
             correct_counter += 1
             print("Correct!\n")
-        elif user_answer.lower() == 'q!':
+        elif user_answer.lower() == 'q':
             print("Quitting…")
             exit()
         else:
