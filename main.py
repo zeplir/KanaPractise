@@ -2,42 +2,51 @@
 
 import json
 import random
-
-# <------------ TODO ------------>
-# Add 'practise only dakuten' option etc
-# Press q to quit anytime
-# Handle incorrect input on gamemode 
-# Handle incorrect input on answer check.
-# Implement train a specific column
-# <------------------------------>
+from play_kanji import PlayKanji
 
 # Global consts
 class Global:
+    """
+    Global constants for file paths.
+    """
     KATAKANA_JSON: str = './json/katakana.json'
     HIRAGANA_JSON: str = './json/hiragana.json'
+    KANJI_JSON: str = './json/kanji.json'
 
 def main():
+    """
+    Main function to run the quiz game.
+    """
     chosen_gamemode: list[str] = gamemode_choice()
-    data: list[dict[str, str]] = get_json(chosen_gamemode[1]) # is accesed with data[index_num][key] prints value of key
+    if chosen_gamemode[0] == "kanji":
+        PlayKanji()
+        return
     max_limit: int = char_limit()
+    data: list[dict[str, str]] = get_json(chosen_gamemode[1])
     game_loop(chosen_gamemode[0], max_limit, data)
 
-# We read it all to a list, might not be the best for memory management, but the list is not so long
-# but it makes handeling the data a lot easier, so I ma going with that anyway
+
 def get_json(path: str) -> list[dict[str, str]]:
+    """
+    Reads a JSON file and returns its content as a list of dictionaries."""
     with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def gamemode_choice() -> list[str]:
+    """
+    Asks the user to choose a gamemode and returns the chosen mode and the corresponding JSON file path.
+    """
     print("\nようこそ / Youkoso!\n\nWelcome to my japanese quiz! Please select what you want to practise!")
     print("You can quit anytime you want be entering 'q!'")
-    user_choice = input("For hiragana enter 'h' and for katakana enter 'k': ")
+    user_choice = input("For hiragana enter 'h' and for katakana enter 'k' \nor if you want to train kanji enter kanji: ")
     while True:
         match user_choice:
             case 'h':
                 return ['hiragana', Global.HIRAGANA_JSON]
             case 'k':
-                return ['katakana',Global.KATAKANA_JSON]
+                return ['katakana', Global.KATAKANA_JSON]
+            case "kanji":
+                return ["kanji", Global.KANJI_JSON]
             case 'q!':
                 print("Exiting the program, thanks for playing!")
                 exit()
@@ -46,13 +55,23 @@ def gamemode_choice() -> list[str]:
 
 # Improve error checking.
 def char_limit() -> int:
+    """
+    Asks the user for the number of characters to train and returns it as an integer.
+    """
     user_choice: str = input("How many characters do you want to train?: ")
     if user_choice.isdigit():
         return int(user_choice)
     else:
         return 1
 
+def kanji_game_loop():
+    pass
+
 def game_loop(game_mode: str, max_len: int, data:list[dict[str, str]]):
+    """
+    Main game loop that shuffles the data and asks the user for answers.
+    Currently only supports hiragana and katakana.
+    """
     order: list[str] = list(range(len(data)))
     random.shuffle(order)
     correct_counter: int = 0
