@@ -1,15 +1,15 @@
 [
     {
         "kanji": "人",
-        "kun-readings": "ひと",
+        "kun-readings": ["ひと"],
         "on-readings": ["ジン", "ニン"],
-        "meaning": "person"
+        "meaning": ["person"]
     },
     {
         "kanji": "一",
         "kun-readings": ["ひと", "ひとつ"],
-        "on-readings": "イチ",
-        "meaning": "one"
+        "on-readings": ["イチ"],
+        "meaning": ["one"]
     },
     {
         "kanji": "日",
@@ -20,26 +20,26 @@
     {
         "kanji": "大",
         "kun-readings": ["おお", "おおきい"],
-        "on-readings": "ダイ",
-        "meaning": "big"
+        "on-readings": ["ダイ"],
+        "meaning": ["big"]
     },
     {
         "kanji": "年",
-        "kun-readings": "とし",
-        "on-readings": "ネン",
-        "meaning": "year"
+        "kun-readings": ["とし"],
+        "on-readings": ["ネン"],
+        "meaning": ["year"]
     },
     {
         "kanji": "出",
         "kun-readings": ["で", "だ"],
-        "on-readings": "シュツ",
-        "meaning": "go out"
+        "on-readings": ["シュツ"],
+        "meaning": ["go out"]
     },
     {
         "kanji": "三",
         "kun-readings": ["み", "みっつ"],
-        "on-readings": "サン",
-        "meaning": "three"
+        "on-readings": ["サン"],
+        "meaning": ["three"]
     },
     {
         "kanji": "上",
@@ -51,43 +51,43 @@
         "kanji": "行",
         "kun-readings": ["い", "こう"],
         "on-readings": ["コウ", "ギョウ"],
-        "meaning": "go"
+        "meaning": ["go"]
     },
     {
         "kanji": "見",
         "kun-readings": ["み", "みる"],
-        "on-readings": "ケン",
+        "on-readings": ["ケン"],
         "meaning": ["see", "look"]
     },
     {
         "kanji": "本",
-        "kun-readings": "もと",
-        "on-readings": "ホン",
-        "meaning": "book"
+        "kun-readings": ["もと"],
+        "on-readings": ["ホン"],
+        "meaning": ["book"]
     },
     {
         "kanji": "中",
-        "kun-readings": "なか",
-        "on-readings": "チュウ",
-        "meaning": "inside"
+        "kun-readings": ["なか"],
+        "on-readings": ["チュウ"],
+        "meaning": ["inside"]
     },
     {
         "kanji": "子",
-        "kun-readings": "こ",
-        "on-readings": "シ",
-        "meaning": "child"
+        "kun-readings": ["こ"],
+        "on-readings": ["シ"],
+        "meaning": ["child"]
     },
     {
         "kanji": "国",
-        "kun-readings": "くに",
-        "on-readings": "コク",
-        "meaning": "country"
+        "kun-readings": ["くに"],
+        "on-readings": ["コク"],
+        "meaning": ["country"]
     },
     {
         "kanji": "分",
         "kun-readings": ["わ", "わける"],
         "on-readings": ["ブン", "フン"],
-        "meaning": "divide"
+        "meaning": ["divide"]
     },
     {
         "kanji": "生",
@@ -98,8 +98,8 @@
     {
         "kanji": "二",
         "kun-readings": ["ふた", "ふたつ"],
-        "on-readings": "ニ",
-        "meaning": "two"
+        "on-readings": ["ニ"],
+        "meaning": ["two"]
     },
     {
         "kanji": "間",
@@ -109,45 +109,45 @@
     },
     {
         "kanji": "時",
-        "kun-readings": "とき",
-        "on-readings": "ジ",
-        "meaning": "time"
+        "kun-readings": ["とき"],
+        "on-readings": ["ジ"],
+        "meaning": ["time"]
     },
     {
         "kanji": "気",
-        "kun-readings": "き",
-        "on-readings": "キ",
+        "kun-readings": ["き"],
+        "on-readings": ["キ"],
         "meaning": ["spirit", "mood", "air", "mind"]
     },
     {
         "kanji": "十",
         "kun-readings": ["とお", "と"],
-        "on-readings": "ジュウ",
-        "meaning": "ten"
+        "on-readings": ["ジュウ"],
+        "meaning": ["ten"]
     },
     {
         "kanji": "女",
         "kun-readings": ["おんな", "め"],
-        "on-readings": "ジョ",
-        "meaning": "woman"
+        "on-readings": ["ジョ"],
+        "meaning": ["woman"]
     },
     {
         "kanji": "前",
-        "kun-readings": "まえ",
-        "on-readings": "ゼン",
-        "meaning": "before"
+        "kun-readings": ["まえ"],
+        "on-readings": ["ゼン"],
+        "meaning": ["before"]
     },
     {
         "kanji": "入",
         "kun-readings": ["い", "はい"],
-        "on-readings": "ニュウ",
-        "meaning": "enter"
+        "on-readings": ["ニュウ"],
+        "meaning": ["enter"]
     },
     {
         "kanji": "小",
         "kun-readings": ["ちい", "こ", "お"],
-        "on-readings": "ショウ",
-        "meaning": "small"
+        "on-readings": ["ショウ"],
+        "meaning": ["small"]
     },
     {
         "kanji": "後",
@@ -157,9 +157,9 @@
     },
     {
         "kanji": "長",
-        "kun-readings": "なが",
-        "on-readings": "チョウ",
-        "meaning": "long"
+        "kun-readings": ["なが"],
+        "on-readings": ["チョウ"],
+        "meaning": ["long"]
     },
     {
         "kanji": "下",
@@ -169,81 +169,81 @@
     },
     {
         "kanji": "学",
-        "kun-readings": "まな",
-        "on-readings": "ガク",
-        "meaning": "learn"
+        "kun-readings": ["まな"],
+        "on-readings": ["ガク"],
+        "meaning": ["learn"]
     },
     {
         "kanji": "月",
-        "kun-readings": "つき",
+        "kun-readings": ["つき"],
         "on-readings": ["ゲツ", "ガツ"],
         "meaning": ["moon", "month"]
     },
     {
         "kanji": "何",
         "kun-readings": ["なに", "なん"],
-        "on-readings": "カ",
-        "meaning": "what"
+        "on-readings": ["カ"],
+        "meaning": ["what"]
     },
     {
         "kanji": "来",
         "kun-readings": ["く", "き"],
-        "on-readings": "ライ",
-        "meaning": "come"
+        "on-readings": ["ライ"],
+        "meaning": ["come"]
     },
     {
         "kanji": "話",
         "kun-readings": ["はなし", "はな"],
-        "on-readings": "ワ",
+        "on-readings": ["ワ"],
         "meaning": ["to talk", "talking"]
     },
     {
         "kanji": "山",
-        "kun-readings": "やま",
-        "on-readings": "サン",
-        "meaning": "mountain"
+        "kun-readings": ["やま"],
+        "on-readings": ["サン"],
+        "meaning": ["mountain"]
     },
     {
         "kanji": "高",
         "kun-readings": ["たか", "たかい"],
-        "on-readings": "コウ",
+        "on-readings": ["コウ"],
         "meaning": ["high", "expensive"]
     },
     {
         "kanji": "今",
-        "kun-readings": "いま",
+        "kun-readings": ["いま"],
         "on-readings": ["コン", "キン"],
-        "meaning": "now"
+        "meaning": ["now"]
     },
     {
         "kanji": "書",
-        "kun-readings": "か (く)",
-        "on-readings": "ショ",
-        "meaning": "write"
+        "kun-readings": ["か (く)"],
+        "on-readings": ["ショ"],
+        "meaning": ["write"]
     },
     {
         "kanji": "五",
         "kun-readings": ["いつ", "いつつ"],
-        "on-readings": "ゴ",
-        "meaning": "five"
+        "on-readings": ["ゴ"],
+        "meaning": ["five"]
     },
     {
         "kanji": "名",
-        "kun-readings": "な",
+        "kun-readings": ["な"],
         "on-readings": ["メイ", "ミョウ"],
-        "meaning": "name"
+        "meaning": ["name"]
     },
     {
         "kanji": "金",
-        "kun-readings": "かね",
+        "kun-readings": ["かね"],
         "on-readings": ["キン", "コン"],
         "meaning": ["gold", "money"]
     },
     {
         "kanji": "男",
-        "kun-readings": "おとこ",
+        "kun-readings": ["おとこ"],
         "on-readings": ["ダン", "ナン"],
-        "meaning": "male"
+        "meaning": ["male"]
     },
     {
         "kanji": "外",
@@ -254,26 +254,26 @@
     {
         "kanji": "四",
         "kun-readings": ["よ", "よん", "よっつ"],
-        "on-readings": "シ",
-        "meaning": "four"
+        "on-readings": ["シ"],
+        "meaning": ["four"]
     },
     {
         "kanji": "先",
-        "kun-readings": "さき",
-        "on-readings": "セン",
-        "meaning": "ahead"
+        "kun-readings": ["さき"],
+        "on-readings": ["セン"],
+        "meaning": ["ahead"]
     },
     {
         "kanji": "川",
-        "kun-readings": "かわ",
-        "on-readings": "セン",
-        "meaning": "river"
+        "kun-readings": ["かわ"],
+        "on-readings": ["セン"],
+        "meaning": ["river"]
     },
     {
         "kanji": "東",
-        "kun-readings": "ひがし",
-        "on-readings": "トウ",
-        "meaning": "east"
+        "kun-readings": ["ひがし"],
+        "on-readings": ["トウ"],
+        "meaning": ["east"]
     },
     {
         "kanji": "聞",
@@ -283,15 +283,15 @@
     },
     {
         "kanji": "語",
-        "kun-readings": "かた",
-        "on-readings": "ゴ",
-        "meaning": "talk"
+        "kun-readings": ["かた"],
+        "on-readings": ["ゴ"],
+        "meaning": ["talk"]
     },
     {
         "kanji": "九",
         "kun-readings": ["ここの", "ここのつ"],
         "on-readings": ["キュウ", "ク"],
-        "meaning": "nine"
+        "meaning": ["nine"]
     },
     {
         "kanji": "食",
@@ -302,181 +302,181 @@
     {
         "kanji": "八",
         "kun-readings": ["や", "やっつ"],
-        "on-readings": "ハチ",
-        "meaning": "eight"
+        "on-readings": ["ハチ"],
+        "meaning": ["eight"]
     },
     {
         "kanji": "水",
-        "kun-readings": "みず",
-        "on-readings": "スイ",
-        "meaning": "water"
+        "kun-readings": ["みず"],
+        "on-readings": ["スイ"],
+        "meaning": ["water"]
     },
     {
         "kanji": "天",
         "kun-readings": ["あま", "あめ"],
-        "on-readings": "テン",
-        "meaning": "heaven"
+        "on-readings": ["テン"],
+        "meaning": ["heaven"]
     },
     {
         "kanji": "木",
         "kun-readings": ["き", "こ"],
         "on-readings": ["ボク", "モク"],
-        "meaning": "tree"
+        "meaning": ["tree"]
     },
     {
         "kanji": "六",
         "kun-readings": ["む", "むっつ"],
-        "on-readings": "ロク",
-        "meaning": "six"
+        "on-readings": ["ロク"],
+        "meaning": ["six"]
     },
     {
         "kanji": "万",
-        "kun-readings": "よろず",
+        "kun-readings": ["よろず"],
         "on-readings": ["マン", "バン"],
         "meaning": ["ten thousand", "everything"]
     },
     {
         "kanji": "白",
         "kun-readings": ["しろ", "しろい"],
-        "on-readings": "ハク",
-        "meaning": "white"
+        "on-readings": ["ハク"],
+        "meaning": ["white"]
     },
     {
         "kanji": "七",
         "kun-readings": ["なな", "ななつ"],
-        "on-readings": "シチ",
-        "meaning": "seven"
+        "on-readings": ["シチ"],
+        "meaning": ["seven"]
     },
     {
         "kanji": "円",
         "kun-readings": ["まる", "まるい"],
-        "on-readings": "エン",
+        "on-readings": ["エン"],
         "meaning": ["yen", "circle"]
     },
     {
         "kanji": "電",
-        "kun-readings": "",
-        "on-readings": "デン",
-        "meaning": "electricity"
+        "kun-readings": [""],
+        "on-readings": ["デン"],
+        "meaning": ["electricity"]
     },
     {
         "kanji": "父",
-        "kun-readings": "ちち",
-        "on-readings": "フ",
-        "meaning": "father"
+        "kun-readings": ["ちち"],
+        "on-readings": ["フ"],
+        "meaning": ["father"]
     },
     {
         "kanji": "北",
-        "kun-readings": "きた",
-        "on-readings": "ホク",
-        "meaning": "north"
+        "kun-readings": ["きた"],
+        "on-readings": ["ホク"],
+        "meaning": ["north"]
     },
     {
         "kanji": "車",
-        "kun-readings": "くるま",
-        "on-readings": "シャ",
-        "meaning": "car"
+        "kun-readings": ["くるま"],
+        "on-readings": ["シャ"],
+        "meaning": ["car"]
     },
     {
         "kanji": "母",
-        "kun-readings": "はは",
-        "on-readings": "ボ",
-        "meaning": "mother"
+        "kun-readings": ["はは"],
+        "on-readings": ["ボ"],
+        "meaning": ["mother"]
     },
     {
         "kanji": "半",
-        "kun-readings": "なかば",
-        "on-readings": "ハン",
-        "meaning": "half"
+        "kun-readings": ["なかば"],
+        "on-readings": ["ハン"],
+        "meaning": ["half"]
     },
     {
         "kanji": "百",
-        "kun-readings": "",
-        "on-readings": "ヒャク",
-        "meaning": "hundred"
+        "kun-readings": [""],
+        "on-readings": ["ヒャク"],
+        "meaning": ["hundred"]
     },
     {
         "kanji": "土",
-        "kun-readings": "つち",
-        "on-readings": "ド",
-        "meaning": "earth"
+        "kun-readings": ["つち"],
+        "on-readings": ["ド"],
+        "meaning": ["earth"]
     },
     {
         "kanji": "西",
-        "kun-readings": "にし",
+        "kun-readings": ["にし"],
         "on-readings": ["セイ", "サイ"],
-        "meaning": "west"
+        "meaning": ["west"]
     },
     {
         "kanji": "読",
-        "kun-readings": "よ",
+        "kun-readings": ["よ"],
         "on-readings": ["ドク", "トク", "トウ"],
-        "meaning": "read"
+        "meaning": ["read"]
     },
     {
         "kanji": "千",
-        "kun-readings": "ち",
-        "on-readings": "セン",
-        "meaning": "thousand"
+        "kun-readings": ["ち"],
+        "on-readings": ["セン"],
+        "meaning": ["thousand"]
     },
     {
         "kanji": "校",
-        "kun-readings": "",
-        "on-readings": "コウ",
-        "meaning": "school"
+        "kun-readings": [""],
+        "on-readings": ["コウ"],
+        "meaning": ["school"]
     },
     {
         "kanji": "右",
-        "kun-readings": "みぎ",
+        "kun-readings": ["みぎ"],
         "on-readings": ["ウ", "ユウ"],
-        "meaning": "right"
+        "meaning": ["right"]
     },
     {
         "kanji": "南",
-        "kun-readings": "みなみ",
+        "kun-readings": ["みなみ"],
         "on-readings": ["ナン", "ナ"],
-        "meaning": "south"
+        "meaning": ["south"]
     },
     {
         "kanji": "左",
-        "kun-readings": "ひだり",
-        "on-readings": "サ",
-        "meaning": "left"
+        "kun-readings": ["ひだり"],
+        "on-readings": ["サ"],
+        "meaning": ["left"]
     },
     {
         "kanji": "友",
-        "kun-readings": "とも",
-        "on-readings": "ユウ",
-        "meaning": "friend"
+        "kun-readings": ["とも"],
+        "on-readings": ["ユウ"],
+        "meaning": ["friend"]
     },
     {
         "kanji": "火",
         "kun-readings": ["ひ", "ほ-"],
-        "on-readings": "カ",
-        "meaning": "fire"
+        "on-readings": ["カ"],
+        "meaning": ["fire"]
     },
     {
         "kanji": "毎",
-        "kun-readings": "ごと",
-        "on-readings": "マイ",
+        "kun-readings": ["ごと"],
+        "on-readings": ["マイ"],
         "meaning": ["every", "each"]
     },
     {
         "kanji": "雨",
         "kun-readings": ["あめ", "あま"],
-        "on-readings": "ウ",
-        "meaning": "rain"
+        "on-readings": ["ウ"],
+        "meaning": ["rain"]
     },
     {
         "kanji": "休",
         "kun-readings": ["やす", "やすむ"],
-        "on-readings": "キュウ",
-        "meaning": "rest"
+        "on-readings": ["キュウ"],
+        "meaning": ["rest"]
     },
     {
         "kanji": "午",
-        "kun-readings": "",
-        "on-readings": "ゴ",
-        "meaning": "noon"
+        "kun-readings": [""],
+        "on-readings": ["ゴ"],
+        "meaning": ["noon"]
     }
 ]
