@@ -2,7 +2,7 @@
 
 import json
 import random
-from play_kanji import PlayKanji
+from src.play_kanji import PlayKanji
 
 # Global consts
 class Global:
@@ -11,7 +11,6 @@ class Global:
     """
     KATAKANA_JSON: str = './json/katakana.json'
     HIRAGANA_JSON: str = './json/hiragana.json'
-    KANJI_JSON: str = './json/kanji.json'
 
 def main():
     """
@@ -24,7 +23,6 @@ def main():
     max_limit: int = char_limit()
     data: list[dict[str, str]] = get_json(chosen_gamemode[1])
     game_loop(chosen_gamemode[0], max_limit, data)
-
 
 def get_json(path: str) -> list[dict[str, str]]:
     """
@@ -46,7 +44,7 @@ def gamemode_choice() -> list[str]:
             case 'k':
                 return ['katakana', Global.KATAKANA_JSON]
             case "kanji":
-                return ["kanji", Global.KANJI_JSON]
+                return ["kanji"]
             case 'q!':
                 print("Exiting the program, thanks for playing!")
                 exit()

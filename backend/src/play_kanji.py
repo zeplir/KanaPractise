@@ -7,7 +7,7 @@ import random
 import os
 import platform
 from pathlib import Path
-from kanji import Kanji
+from src.kanji import Kanji
 
 class PlayKanji:
     """
