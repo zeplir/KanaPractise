@@ -1,4 +1,4 @@
-# Flash Cards
+# KanaPractise
 
 ## Notes
 Yeah i dont know why i gave this project this name really but the main goal is to
