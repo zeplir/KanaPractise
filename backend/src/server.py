@@ -16,7 +16,11 @@ app = fk(__name__)
 CORS(app) # Enable CORS for all routes
 
 @app.route('/kanji', methods=['POST'])
-def home():
+def kanji():
+    """
+    Callback function for /kanji, which returns X
+    amount of kanji objects on correct request.
+    """
     data = request.json
     amount = data.get('amount')
     if not amount or amount < 1:
@@ -35,6 +39,10 @@ def home():
 
 @app.route("/kana", methods=['POST'])
 def kana():
+    """
+    Callback function for /kana which returns X
+    amount of katakana/hiragana objects on correcr request.
+    """
     data = request.json
     amount = data.get('amount')
     kana_type = data.get('kana_type')
