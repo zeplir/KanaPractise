@@ -4,7 +4,10 @@ Contains some helper functions for paths
 
 from pathlib import Path
 
-def get_path(suffix = None) -> str:
-    if not suffix:
-        return Path(__file__).resolve().parent
-    return Path(__file__).resolve().parent / f"{suffix}"
+def get_path(file = None) -> str:
+    """
+    Adds a "file_name" to get correct path.
+    """
+    here = Path(__file__).resolve().parent
+    repo_root = here.parent
+    return repo_root / 'json' / f'{file}.json'
