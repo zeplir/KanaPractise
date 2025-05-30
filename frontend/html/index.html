@@ -6,7 +6,17 @@
   <link rel="stylesheet" href="../css/styles.css" />
 </head>
 <body>
-  <button id="sendBtn">Send Request</button>
+  <label for="picked_mode">Please chose what you want to practise</label>
+  <select name="picked_mode" id="picked_mode">
+    <option value="hiragana">Hiragana</option>
+    <option value="katakana">Katakana</option>
+    <option value="kanji">Kanji</option>
+  </select>
+
+  <label for="amount">How many characters do you want to practise</label>
+  <input id="amount" type="number">
+  <button id="start">Start</button>
+  <h1 id="test"></h1>
 
   <script src="../src/test.js"></script>
 </body>
