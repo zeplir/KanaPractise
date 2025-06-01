@@ -15,16 +15,16 @@ make it a question. Now this might not always be the case, but it is
 a common usecase. Another common one is は (ha) but read as (wa),
 which is a topic marker. For example:
 
-I am Steve
-Watashi wa Steve
-私*は*スティーブ
+- I am Steve
+- Watashi wa Steve
+- 私*は*スティーブ
 
 ## Katakana
 Katakana is used in Japanese for foreign loan words. Common use
 cases are foregin names, but also words, such as coffee and buss.
 
-Bus: バス
-Coffe: コーヒー
+- Bus: バス
+- Coffe: コーヒー
 
 ## Kanji
 Kanji is the biggest of the three and and uses chinese characters.
@@ -37,9 +37,9 @@ called on-yomi and kun-yomi.
 On-yomi is the chinese way of pronoucing the characters and this is done
 when the kanjis are grouped into clusters. For example:
 
-Japan
-Nihon
-日本
+- Japan
+- Nihon
+- 日本
 
 Here the kanji for sun/day 日 (ni) is used in combination with the kanji
 本 (hon), which means book or origin. Often the on-yomi is written in
@@ -58,8 +58,8 @@ Japanese, and you need to start with something :P. And trust me, its gets
 easier, when you know Hiragana, Katakana is easier to learn than when starting
 from scratch. For example (ni):
 
-Hiragana: に
-Katakana: ニ
+- Hiragana: に
+- Katakana: ニ
 
 As you can see, they share some similarities, making it easier to remember.
 When it comes to kanji, my apporach is learning first kanji - meaning.

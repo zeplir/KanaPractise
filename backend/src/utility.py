@@ -4,7 +4,7 @@ Contains some helper functions for paths
 
 from pathlib import Path
 
-def get_path(file = None) -> str:
+def get_path(file: str) -> str:
     """
     Adds a "file_name" to get correct path.
     """

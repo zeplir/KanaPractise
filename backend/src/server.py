@@ -30,7 +30,7 @@ def kanji():
         path_to_json = get_path("kanji")
     except FileNotFoundError:
         logger.debug("Incorrect kana type was chosen")
-        return jsonify(error=""), HTTPStatus.INTERNAL_SERVER_ERROR
+        return jsonify(error="invalid_request"), HTTPStatus.INTERNAL_SERVER_ERROR
 
     with open(path_to_json, 'r', encoding='utf-8') as f:
         raw_data = json.load(f)
@@ -41,14 +41,15 @@ def kanji():
 def kana():
     """
     Callback function for /kana which returns X
-    amount of katakana/hiragana objects on correcr request.
+    amount of katakana/hiragana objects on correct request.
     """
     data = request.json
     amount = data.get('amount')
     kana_type = data.get('kana_type')
 
     if not amount or not kana_type:
-        logger.debug("Either amount (%s) or kana_type (%s) was incorrectly set", amount, kana_type)
+        logger.debug("Either amount (%s) or kana_type (%s) was incorrectly set",
+                     amount, kana_type)
         return jsonify(error="invalid_request"), HTTPStatus.BAD_REQUEST
 
     if int(amount) < 0:
