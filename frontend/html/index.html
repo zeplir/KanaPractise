@@ -41,11 +41,22 @@
       <p id="kana-character" class="text-6xl font-bold text-indigo-600 h-20 flex justify-center items-center bg-indigo-100 rounded-lg">
         ?
       </p>
+      <div id="clue-wrapper" class="flex justify-center">
+        <div class="flex items-center space-x-2 transition-all duration-700 ease-in-out" id="clue-container">
+          <button id="clue-btn"
+            class="bg-yellow-400 text-yellow-900 font-semibold py-2 px-4 rounded-md transition-transform duration-700 ease-in-out hover:bg-yellow-500">
+            Clue
+            </button>
+              <div id="clue-text"
+                class="opacity-0 scale-95 pointer-events-none bg-yellow-100 text-yellow-800 px-3 py-2 rounded-md text-sm shadow transition-all duration-700 ease-in-out">
+              </div>
+          </div>
+      </div>
       <div id="score-display" class="text-gray-600 font-medium text-sm text-right">
         0 / 0 correct
       </div>
 
-      <input id="user-input" type="text" placeholder="Type the romanji"
+      <input id="user-input" type="text" placeholder="Type your guess!"
              class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-400" />
       <button id="submit-btn"
               class="w-full bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 transition">
@@ -55,6 +66,6 @@
 
   </div>
 
-  <script src="../src/test.js"></script>
+  <script src="../src/main.js"></script>
 </body>
 </html>
