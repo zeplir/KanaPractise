@@ -2,12 +2,12 @@ const button = document.getElementById('start');
 const clueBtn = document.getElementById("clue-btn");
 const clueText = document.getElementById("clue-text");
 const clueWrapper = document.getElementById("clue-wrapper");
+const choseChar = document.getElementById("chose-char");
+const choseNum = document.getElementById("chose-num");
 
 button.addEventListener('click', async () => {
     const amount = document.getElementById("amount");
     const gameMode = document.getElementById("picked_mode");
-    const choseChar = document.getElementById("chose-char");
-    const choseNum = document.getElementById("chose-num");
     const mode = gameMode.value.toLowerCase();
 
     let data = await request(amount.value, mode);
@@ -16,6 +16,8 @@ button.addEventListener('click', async () => {
     if (mode !== "kanji") {
         handle_kana_data(data, mode);
     } else {
+        const clueBox = document.getElementById("clue-wrapper");
+        clueBox.classList.remove("hidden");
         handle_kanji_data(data, mode);
     }
 });
@@ -138,6 +140,7 @@ function showCharacter(data, currentIndex, kanaDisplay, inputField, submitButton
         kanaDisplay.textContent = "Done! 🎉";
         submitButton.disabled = true;
         inputField.disabled = true;
+        toggleSettingsData([amount, gameMode, choseChar, choseNum, button], false);
     }
 }
 

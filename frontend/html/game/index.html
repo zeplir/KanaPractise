@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kana Trainer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+<body class="bg-gradient-to-br from-pink-100 via-blue-100 to-green-100 min-h-screen flex items-center justify-center p-4">
+
+    <header class="absolute top-4 left-4">
+        <a href="/frontend/html/index.html" class="flex items-center space-x-2 text-gray-700 hover:text-gray-900">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 9.75L12 3l9 6.75M4.5 10.5v9a1.5 1.5 0 001.5 1.5H9v-6h6v6h3a1.5 1.5 0 001.5-1.5v-9" />
+          </svg>
+          <span class="font-medium">Home</span>
+        </a>
+      </header>
+  <div class="bg-white p-6 rounded-xl shadow-lg w-full max-w-md space-y-6">
+
+    <h1 class="text-2xl font-bold text-center text-gray-800">Kana Trainer</h1>
+
+    <!-- Settings -->
+    <div class="space-y-4">
+      <div>
+        <label for="picked_mode" id="chose-char" class="block font-medium text-gray-700 mb-1">Choose what to practice:</label>
+        <select id="picked_mode" name="picked_mode"
+                class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-400">
+          <option value="hiragana">Hiragana</option>
+          <option value="katakana">Katakana</option>
+          <option value="kanji">Kanji</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="amount" id="chose-num" class="block font-medium text-gray-700 mb-1">How many characters?</label>
+        <input id="amount" type="number" min="1" max="50" value="5"
+               class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-2 focus:ring-indigo-400" />
+      </div>
+
+      <button id="start"
+              class="w-full bg-green-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-green-600 transition">
+        Start
+      </button>
+    </div>
+
+    <!-- Flashcard Display -->
+    <div id="flashcard" class="space-y-4 text-center">
+      <p id="kana-character" class="text-6xl font-bold text-indigo-600 h-20 flex justify-center items-center bg-indigo-100 rounded-lg">
+        ?
+      </p>
+      <div id="clue-wrapper" class="hidden flex justify-center">
+        <div class="flex items-center space-x-2 transition-all duration-700 ease-in-out" id="clue-container">
+          <button id="clue-btn"
+            class="bg-yellow-400 text-yellow-900 font-semibold py-2 px-4 rounded-md transition-transform duration-700 ease-in-out hover:bg-yellow-500">
+            Clue
+            </button>
+              <div id="clue-text"
+                class="hidden opacity-0 scale-95 pointer-events-none bg-yellow-100 text-yellow-800 px-3 py-2 rounded-md text-sm shadow transition-all duration-700 ease-in-out">
+              </div>
+          </div>
+      </div>
+      <div id="score-display" class="text-gray-600 font-medium text-sm text-right">
+        0 / 0 correct
+      </div>
+
+      <input id="user-input" type="text" placeholder="Type your guess!"
+             class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-400" />
+      <button id="submit-btn"
+              class="w-full bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 transition">
+        Submit
+      </button>
+    </div>
+
+  </div>
+
+  <script src="../../src/main.js"></script>
+</body>
+</html>
