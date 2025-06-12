@@ -19,7 +19,9 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 app = fk(__name__)
-CORS(app, origins=["http://127.0.0.1:5500"]) # Enable CORS for all routes
+
+# Enable CORS for live-server, since it works as a proxy I guess.
+CORS(app, origins=["http://127.0.0.1:5500"])
 
 @app.route('/kanji', methods=['POST'])
 @app.route("/hiragana", methods=['POST'])

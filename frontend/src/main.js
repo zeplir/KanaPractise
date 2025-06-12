@@ -46,7 +46,7 @@ async function request(amount, kana_type) {
 function reset_clue() {
     clueBtn.classList.remove("translate-x-[-4px]");
     clueText.classList.remove("opacity-100", "scale-100");
-    clueText.classList.add("opacity-0", "scale-95", "pointer-events-none");
+    clueText.classList.add("hidden", "opacity-0", "scale-95", "pointer-events-none");
     clueText.textContent = "";
 }
 
@@ -95,7 +95,7 @@ function handle_kanji_data(data, gameMode) {
     clueBtn.addEventListener("click", () => {
     clueBtn.classList.add("translate-x-[-4px]");
     clueText.textContent = `Pronunciation: ${data[currentIndex]["kun-readings"]}`;
-    clueText.classList.remove("opacity-0", "scale-95", "pointer-events-none");
+    clueText.classList.remove("hidden", "opacity-0", "scale-95", "pointer-events-none");
     clueText.classList.add("opacity-100", "scale-100");
     });
 
