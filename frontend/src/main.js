@@ -6,9 +6,12 @@ const clueWrapper = document.getElementById("clue-wrapper");
 button.addEventListener('click', async () => {
     const amount = document.getElementById("amount");
     const gameMode = document.getElementById("picked_mode");
+    const choseChar = document.getElementById("chose-char");
+    const choseNum = document.getElementById("chose-num");
     const mode = gameMode.value.toLowerCase();
 
     let data = await request(amount.value, mode);
+    toggleSettingsData([amount, gameMode, choseChar, choseNum, button], true);
 
     if (mode !== "kanji") {
         handle_kana_data(data, mode);
@@ -89,17 +92,19 @@ function handle_kanji_data(data, gameMode) {
     let currentIndex = 0;
     let correctCount = 0;
 
-    /*clueBtn.addEventListener("click", () => {
+    clueBtn.addEventListener("click", () => {
     clueBtn.classList.add("translate-x-[-4px]");
-    clueText.textContent = `Pronunciation: ${data[currentIndex][kun-readings]}`;
+    clueText.textContent = `Pronunciation: ${data[currentIndex]["kun-readings"]}`;
     clueText.classList.remove("opacity-0", "scale-95", "pointer-events-none");
     clueText.classList.add("opacity-100", "scale-100");
     });
-    */
 
     submitButton.onclick = () => {
         const userAnswer = inputField.value.trim().toLowerCase();
         let isCorrect = false;
+
+        // Here we loop through the meaning kanji has, since one
+        // kanji can have mulitple meanings and we want to accept all
         data[currentIndex].meaning.forEach((ans) => {
             if(ans === userAnswer) {
                 isCorrect = true;
@@ -113,7 +118,7 @@ function handle_kanji_data(data, gameMode) {
                 showCharacter(data, currentIndex, kanaDisplay, inputField, submitButton, gameMode);
             }, 300);
             updateScore(scoreDisplay, correctCount, data);
-            //reset_clue();
+            reset_clue();
         }
         animateResult(isCorrect, kanaDisplay)
     };
@@ -149,8 +154,19 @@ function animateResult(isCorrect, kanaDisplay) {
         kanaDisplay.classList.add("animate-shake");
     }
 
-    // Remove class after animation ends so it can re-trigger next time
     setTimeout(() => {
         kanaDisplay.classList.remove("animate-bounce", "animate-shake");
     }, 500);
+}
+
+function toggleSettingsData(domElements, remove_from_dom) {
+    if(remove_from_dom) {
+        domElements.forEach((el) => {
+            el.classList.add('hidden');
+        });
+    } else {
+        domElements.forEach((el) => {
+            el.classList.remove('hidden');
+        });
+    }
 }

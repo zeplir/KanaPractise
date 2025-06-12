@@ -21,7 +21,7 @@ button {
 }
 
 .animate-bounce {
-  animation: bounce 0.5s;
+  animation: bounce 0.5s ease;
 }
 
 @keyframes bounce {

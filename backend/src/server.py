@@ -19,7 +19,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 app = fk(__name__)
-CORS(app) # Enable CORS for all routes
+CORS(app, origins=["http://127.0.0.1:5500"]) # Enable CORS for all routes
 
 @app.route('/kanji', methods=['POST'])
 @app.route("/hiragana", methods=['POST'])
@@ -55,4 +55,4 @@ def get_kana_data():
 
 # Uses default ip: http://127.0.0.1:5000
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="localhost", port=5000)
